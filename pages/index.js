@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Head from "next/head"
-import {CopilotIcon} from '@primer/octicons-react'
+// import {CopilotIcon} from '@primer/octicons-react'
 import { DiGithubBadge } from "react-icons/di";
 
 import KeyboardNav from "../components/keyboard-nav";
@@ -12,6 +12,7 @@ export default function Home() {
     <div className="flex flex-col h-screen justify-between">
       <Head>
         <title>zeke/universe-22</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <KeyboardNav />
       <main>
@@ -30,12 +31,24 @@ export default function Home() {
 
 
         <section>
-          <h2 className="centered text-3xl">👋 Hey  </h2>
+          <h2 className="centered text-3xl">👋 Hey</h2>
         </section>
 
         <section style={{backgroundColor: "#22272e"}}>
           <div className="centered container">
           <img src='/zeke-bio.png' />
+          </div>
+        </section>
+
+        <section style={{backgroundColor: "#22272e"}}>
+          <div className="centered container">
+          <img src='/adventure-cat.png' />
+          </div>
+        </section>
+
+        <section style={{backgroundColor: "#22272e"}}>
+          <div className="centered container">
+          <img src='/rowan.jpg' />
           </div>
         </section>
 
@@ -58,23 +71,29 @@ export default function Home() {
           </h1>
         </section>
 
-        {/* <section>
-          <p className="text-center">Stable Diffusion<span className="opacity-50"> generates images from text.</span></p>
-        </section>
 
 
-        <section>
-          <p className="text-center">Stable Diffusion<span className="opacity-50"> is open source.</span></p>
-        </section>
-
-        <section>
-          <p className="text-center">Stable Diffusion<span className="opacity-50"> is fun.</span></p>r
-        </section> */}
-
-        <section className="bg-amber-700">
+        <section className="bg-amber-800">
         <figure className="centered container">
           <img src='/sd-replicate-web.png' className="drop-shadow-2xl" />
           </figure>          
+        </section>
+
+        <section className="bg-amber-800">
+          <p className="text-center">Stable Diffusion<span className="opacity-50"> is open source.</span></p>
+        </section>
+
+
+        <section className="bg-amber-700">
+          <p className="text-center">Stable Diffusion<span className="opacity-50"> generates high-quality images.</span></p>
+        </section>
+
+        <section className="bg-amber-600">
+          <p className="text-center">Stable Diffusion<span className="opacity-50"> can run on &ldquo;modest&rdquo; hardware.</span></p>
+        </section>
+
+        <section className="bg-amber-500">
+          <p className="text-center">Stable Diffusion is fun! 🦜</p>
         </section>
 
         {/* <section className="bg-white">
@@ -136,6 +155,12 @@ export default function Home() {
           </div>
         </section>
 
+        <section>
+          <p class="text-center"><DiGithubBadge size="2em" className="inline-block -mt-1 mr-1" />
+            <Link href="https://github.com/zeke/inpainter">zeke/inpainter</Link>
+          </p>
+        </section>
+
 
         <section className="bg-gray-700">
         <h2 className="centered"><span className="text-base opacity-40 tracking-normal font-normal">Stable Diffusion innovation:</span><br />Animation</h2>
@@ -144,6 +169,18 @@ export default function Home() {
         <section className="bg-gray-400">
           <div className="centered container">
           <video autoPlay loop muted playsInline className="h-full mx-auto"><source src="/sd-animation.mp4" /></video>
+          </div>
+        </section>
+
+        <section className="bg-gray-800">
+          <div className="centered container">
+          <video autoPlay loop muted playsInline className="h-full mx-auto"><source src="/animation-michelangelo.mp4" /></video>
+          </div>
+        </section>
+
+        <section className="bg-lime-900">
+          <div className="centered container">
+          <video autoPlay loop muted playsInline className="h-full mx-auto"><source src="/animation-tree.mp4" /></video>
           </div>
         </section>
 
@@ -203,7 +240,7 @@ export default function Home() {
           </figure>          
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-amber-700">
         <figure className="centered container">
           <img src='/replicate-text-to-image-collection.png' className="drop-shadow-2xl" />
           </figure>
@@ -234,76 +271,109 @@ export default function Home() {
           </h1>
         </section>
 
-        {/* <section>
-          <p>When you work in a codespace, the environment you are working in is created using a development container, or dev container, hosted on a virtual machine.</p>
-        </section> */}
+        <section className="bg-gray-900	">
+          <div className="centered container">
+            <img src='/codespaces-homepage.png' className="drop-shadow-2xl" />
+          </div>
+        </section>
 
-        <section className="bg-gray-700">
+        <section className="bg-gray-900">
+          <p class="text-center"><DiGithubBadge size="2em" className="inline-block -mt-1 mr-1" />
+            <Link href="https://github.com/zeke/replicate-sd-textual-inversion">zeke/replicate-sd-textual-inversion</Link>
+          </p>
+        </section>
+
+        <section className="bg-gray-600">
           <div className="centered container">
             <img src='/create-codespace-01.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-700">
+        <section className="bg-gray-600">
           <div className="centered container">
             <img src='/create-codespace-02.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
 
-        <section className="bg-gray-700">
+        <section className="bg-gray-600">
           <div className="centered container">
             <img src='/create-codespace-03.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-700">
+        <section className="bg-gray-600">
           <div className="centered container">
             <img src='/create-codespace-04.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-700">
+        <section className="bg-gray-600">
           <div className="centered container">
             <img src='/create-codespace-05.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-700">
+        <section className="bg-gray-600">
           <div className="centered container">
             <img src='/create-codespace-06.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-700">
+        <section className="bg-gray-600">
           <div className="centered container">
             <img src='/create-codespace-07.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-700">
+        <section className="bg-gray-600">
           <div className="centered container">
             <img src='/create-codespace-08.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-700">
+        <section className="bg-gray-600">
           <div className="centered container">
             <img src='/create-codespace-09.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-700">
-          <div className="centered container">
-            <img src='/create-codespace-10.png' className="drop-shadow-2xl" />
-          </div>
-        </section>
-
-        <section className="bg-gray-700">
+        <section className="bg-gray-600">
           <div className="centered container">
             <img src='/create-codespace-11.png' className="drop-shadow-2xl" />
           </div>
         </section>
+
+        <section className="bg-gray-600">
+          <div className="centered container">
+            <img src='/cog.png' className="drop-shadow-2xl" />
+          </div>
+        </section>
+
+        <section className="bg-gray-600">
+          <div className="centered container">
+            <img src='/cog-yaml.png' className="drop-shadow-2xl" />
+          </div>
+        </section>
+
+        <section className="bg-gray-600">
+          <div className="centered container">
+            <img src='/predict-py.png' className="drop-shadow-2xl" />
+          </div>
+        </section>
+
+        <section className="bg-gray-600">
+          <div className="centered container">
+            <img src='/create-codespace-12.png' className="drop-shadow-2xl" />
+          </div>
+        </section>
+
+        <section className="bg-gray-600">
+          <div className="centered container">
+            <img src='/create-codespace-13.png' className="drop-shadow-2xl" />
+          </div>
+        </section>
+
 
         <section className="bg-white">
           <div className="centered container">
@@ -329,10 +399,10 @@ export default function Home() {
             Fine-tuning with textual inversion
           </h1>
         </section>
-        
+{/*         
         <section>
-          <p><b>Textual Inversion</b> is a technique for capturing novel concepts from a small number of example images in a way that can later be used to control text-to-image pipelines. It does so by learning new &ldquo;words&rdquo; in the embedding space of the pipeline&apos;s text encoder.</p>
-        </section>
+          <p><b>Textual Inversion</b> is a technique for capturing novel concepts from a small number of example images. It does so by learning new &ldquo;words&rdquo; in the embedding space of the pipeline&apos;s text encoder.</p>
+        </section> */}
 
         <section className="bg-white">
           <div className="centered container">
@@ -346,9 +416,9 @@ export default function Home() {
           </div>
         </section>
 
-        {/* <section>
-          <p className="font-mono text-center">&ldquo;&lt;octocat&gt; in lotus pose on a flying carpet&rdquo;</p>
-        </section> */}
+        <section>
+          <p className="font-mono text-center">art deco &lt;octocat&gt;&rdquo;</p>
+        </section>
 
         <section className="bg-sky-700">
           <h2 className="centered"><span className="text-base opacity-40 tracking-normal font-normal">Training data:</span><br />
@@ -361,39 +431,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-blue-900">
+        <section className="bg-sky-700">
           <div className="centered container">
             <img src='/octocat-training-data.png' className="drop-shadow-2xl" />
-          </div>
-        </section>
-
-        <section className="bg-blue-900">
-          <div className="centered container">
-            <img src='/cog.png' className="drop-shadow-2xl" />
-          </div>
-        </section>
-
-        <section className="bg-blue-900">
-          <div className="centered container">
-            <img src='/cog-yaml.png' className="drop-shadow-2xl" />
-          </div>
-        </section>
-
-        <section className="bg-blue-900">
-          <div className="centered container">
-            <img src='/predict-py.png' className="drop-shadow-2xl" />
-          </div>
-        </section>
-
-        <section className="bg-gray-700">
-          <div className="centered container">
-            <img src='/create-codespace-12.png' className="drop-shadow-2xl" />
-          </div>
-        </section>
-
-        <section className="bg-gray-700">
-          <div className="centered container">
-            <img src='/create-codespace-13.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
@@ -409,12 +449,43 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="bg-gray-700">
+          <div className="centered container">
+            <img src='/bash-train.png' className="drop-shadow-2xl" />
+          </div>
+        </section>
+
+        <section className="bg-white">
+          <div className="centered container">
+          <video muted controls className="h-full mx-auto"><source src="/cog-predict.mp4" /></video>
+          </div>
+        </section>
+
+        <section className="bg-white">
+          <div className="centered container">
+            <img src='/cog-predict-output.png' className="drop-shadow-2xl" />
+          </div>
+        </section>
+
+
+        <section className="bg-gray-800">
+          <div className="centered w-2/3">
+            <h2 className="">Topics</h2><br />
+            <ul className="inline-block mt-5">
+              <li>✅ <span className="line-through opacity-30">Stable Diffusion</span></li>
+              <li>✅ <span className="line-through opacity-30">Replicate</span></li>
+              <li>✅ <span className="line-through opacity-30">Codespaces</span></li>
+              <li>✅ <span className="line-through opacity-30">Fine-tuning</span></li>
+              <li>👉 Deploying your model</li>
+            </ul>
+          </div>
+        </section>
+        
         <section className="bg-brand">
           <div className="centered container">
             <img src='/create-model.png' className="drop-shadow-2xl" />
           </div>
         </section>
-
 
         <section className="bg-brand">
           <div className="centered container">
@@ -436,29 +507,27 @@ export default function Home() {
 
         <section className="bg-white">
           <div className="centered container">
-          <img src='/deco-cats.png' />
-          </div>
-        </section>
-
-        <section className="bg-white">
-          <div className="centered container">
-          <img src='/deco-cats-2.png' />
-          </div>
-        </section>
-
-        <section className="bg-gray-800">
-          <div className="centered w-2/3">
-            <h2 className="">Topics</h2><br />
-            <ul className="inline-block mt-5">
-              <li>✅ <span className="line-through opacity-30">Stable Diffusion</span></li>
-              <li>✅ <span className="line-through opacity-30">Replicate</span></li>
-              <li>✅ <span className="line-through opacity-30">Codespaces</span></li>
-              <li>✅ <span className="line-through opacity-30">Fine-tuning</span></li>
-              <li>👉 Deploying your model</li>
-            </ul>
+          <img src='/new-octocats.png' />
           </div>
         </section>
         
+
+        <section className="bg-gray-800">
+          <div className="centered w-2/3">
+            <ul className="inline-block mt-5">
+              <li>✅ <span className="line-through opacity-50">Stable Diffusion</span></li>
+              <li>✅ <span className="line-through opacity-50">Replicate</span></li>
+              <li>✅ <span className="line-through opacity-50">Codespaces</span></li>
+              <li>✅ <span className="line-through opacity-50">Fine-tuning a model</span></li>
+              <li>✅ <span className="line-through opacity-50">Deploying a model</span></li>
+              <li>👉 <span className="">Go forth and create!</span></li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="centered text-3xl">✌️ Fin</h2>
+        </section>
 
 
       </main>
