@@ -152,7 +152,7 @@ export default function Home() {
           <h2 className="centered"><span className="inline-bg">linocut print of cats and dogs</span></h2>
         </section>
 
-        <section className="bg-orange-800		 centered">
+        <section className="bg-orange-800 centered">
 
         <h2 className="centered"><span className="text-base opacity-40 tracking-normal font-normal">Stable Diffusion innovation:</span><br />Inpainting</h2>
         </section>
@@ -250,7 +250,25 @@ export default function Home() {
 
         <section className="bg-amber-700">
         <figure className="centered container">
-          <img src='/replicate-text-to-image-collection.png' className="drop-shadow-2xl" />
+          <img src='/collection-text-to-image.png' className="drop-shadow-2xl" />
+          </figure>
+        </section>
+
+        <section className="bg-amber-700">
+        <figure className="centered container">
+          <img src='/collection-image-to-text.png' className="drop-shadow-2xl" />
+          </figure>
+        </section>
+
+        <section className="bg-amber-700">
+        <figure className="centered container">
+          <img src='/collection-super-resolution.png' className="drop-shadow-2xl" />
+          </figure>
+        </section>
+
+        <section className="bg-amber-700">
+        <figure className="centered container">
+          <img src='/collection-image-restoration.png' className="drop-shadow-2xl" />
           </figure>
         </section>
 
@@ -291,92 +309,92 @@ export default function Home() {
           </p>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/create-codespace-01.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/create-codespace-02.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/create-codespace-03.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/create-codespace-04.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/create-codespace-05.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/create-codespace-06.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/create-codespace-07.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/create-codespace-08.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/create-codespace-09.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/create-codespace-11.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/cog.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/cog-yaml.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/predict-py.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/create-codespace-12.png' className="drop-shadow-2xl" />
           </div>
         </section>
 
-        <section className="bg-gray-600">
+        <section className="bg-gray-900">
           <div className="centered container">
             <img src='/create-codespace-13.png' className="drop-shadow-2xl" />
           </div>
@@ -425,7 +443,7 @@ export default function Home() {
         </section>
 
         <section>
-          <p className="font-mono text-center">art deco &lt;octocat&gt;&rdquo;</p>
+          <p className="font-mono text-center">&ldquo;art deco &lt;octocat&gt;&rdquo;</p>
         </section>
 
         <section className="bg-sky-700">
@@ -526,7 +544,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-white">
+        <section className="bg-black">
           <div className="centered container">
           <img src='/new-octocats.png' />
           </div>
@@ -536,11 +554,11 @@ export default function Home() {
         <section className="bg-gray-800">
           <div className="centered w-2/3">
             <ul className="inline-block mt-5">
-              <li>✅ <span className="line-through opacity-50">Stable Diffusion</span></li>
-              <li>✅ <span className="line-through opacity-50">Replicate</span></li>
-              <li>✅ <span className="line-through opacity-50">Codespaces</span></li>
-              <li>✅ <span className="line-through opacity-50">Fine-tuning a model</span></li>
-              <li>✅ <span className="line-through opacity-50">Deploying a model</span></li>
+              <li>✅ <span className="opacity-30">Stable Diffusion</span></li>
+              <li>✅ <span className="opacity-30">Replicate</span></li>
+              <li>✅ <span className="opacity-30">Codespaces</span></li>
+              <li>✅ <span className="opacity-30">Fine-tuning a model</span></li>
+              <li>✅ <span className="opacity-30">Deploying a model</span></li>
               <li>👉 <span className="">Go forth and create!</span></li>
             </ul>
           </div>
