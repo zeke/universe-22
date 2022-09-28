@@ -140,8 +140,16 @@ export default function Home() {
           <h2 className="centered"><span className="inline-bg">green grass with a few scattered flowers</span></h2>
         </section> */}
 
+        {/* <section className="bg-[url('/grass-with-flowers.jpg')] bg-repeat">
+          <h2 className="centered"><span className="inline-bg">green grass with a few scattered flowers</span></h2>
+        </section> */}
+
         <section className="bg-[url('/tile-grass.jpg')] bg-repeat">
           <h2 className="centered"><span className="inline-bg">a field of grass with little yellow flowers</span></h2>
+        </section>
+
+        <section className="bg-[url('/dogs-and-cats.jpg')] bg-repeat bg-center bg-blend-multiply bg-yellow-300">
+          <h2 className="centered"><span className="inline-bg">linocut print of cats and dogs</span></h2>
         </section>
 
         <section className="bg-orange-800		 centered">
