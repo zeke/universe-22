@@ -129,10 +129,17 @@ body {
 }
 
 h1 {
-  /* font-size: 6vw; */
-  font-size: 5rem;
   font-weight: bold;
-  @apply tracking-tight p-32;
+  @apply p-32 text-2xl ;
+}
+
+h2 {
+  font-weight: bold;
+  @apply tracking-tight text-xl;
+}
+
+h3 {
+  @apply tracking-tight text-lg opacity-50;
 }
 
 pre,
@@ -145,24 +152,47 @@ samp,
 }
 
 section {
-  @apply h-full justify-center bg-gray-800 relative;
+  @apply justify-center bg-gray-800 relative flex;
+  height: 100vh;
+  width: 100ww;
 }
 
 section > .centered {
-  width: 50%;
-  height: 50%;
-  @apply bg-gray-800;
   @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
-/* 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
+section > .container {
+  @apply w-4/5 h-4/5
+}
 
+section img {
+  @apply max-w-full max-h-full text-center mx-auto;
+}
+
+ul {
+  @apply text-base;
+}
+
+li {
+  @apply text-base py-2;
+}
+
+p {
+  @apply w-4/5 m-auto text-base;
+}
+
+a {
+  @apply underline;
+}
+
+.inline-bg {
+  @apply bg-black bg-opacity-70 box-decoration-clone	px-5 rounded-md
+}
+
+figcaption {
+  @apply text-center text-base;
+}
 .react-icons {
   vertical-align: middle;
-  color: yellow;
 }
 /* value={{ color: "blue", className: "global-class-name" }} */
