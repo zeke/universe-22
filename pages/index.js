@@ -41,7 +41,7 @@ export default function Home() {
 
         <section className="bg-gray-800">
           <div className="centered w-4/5">
-            <h2 className="">Today's Topics</h2>
+            <h2 className="">Today&apos;s Topics</h2>
             <ul className="inline-block mt-5">
               <li>👩‍🚀 Stable Diffusion{""}<span className="opacity-40">, a generative text-to-image model</span></li>
               <li>🚀 Replicate{""}<span className="opacity-40">, a cloud API for running models</span></li>
@@ -331,7 +331,7 @@ export default function Home() {
         </section>
         
         <section>
-          <p>Using only 3-5 images of a user-provided concept, like an object or a style, we learn to represent it through new "words" in the embedding space of a frozen text-to-image model. These "words" can be composed into natural language sentences, guiding personalized creation in an intuitive way.</p>
+          <p><b>Textual Inversion</b> is a technique for capturing novel concepts from a small number of example images in a way that can later be used to control text-to-image pipelines. It does so by learning new &ldquo;words&rdquo; in the embedding space of the pipeline&apos;s text encoder.</p>
         </section>
 
         <section className="bg-white">
