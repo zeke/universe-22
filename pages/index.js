@@ -96,12 +96,6 @@ export default function Home() {
           <p className="text-center">Stable Diffusion is fun! 🦜</p>
         </section>
 
-        {/* <section className="bg-white">
-          <div className="centered container">
-          <video muted controls className="h-full mx-auto"><source src="/sd-examples-on-replicate.mp4" /></video>
-          </div>
-        </section> */} 
-
         <section className="bg-lime-900">
         <h2 className="centered"><span className="text-base opacity-40 tracking-normal font-normal">Stable Diffusion innovation:</span><br />Tiling images</h2>
         </section>
@@ -311,6 +305,12 @@ export default function Home() {
 
         <section className="bg-gray-900">
           <div className="centered container">
+          <video autoPlay loop muted playsInline className="h-full mx-auto"><source src="/replicate-sd-textual-inversion-readme.mp4" /></video>
+          </div>
+        </section>
+
+        <section className="bg-gray-900">
+          <div className="centered container">
             <img src='/create-codespace-01.png' className="drop-shadow-2xl" />
           </div>
         </section>
@@ -401,9 +401,9 @@ export default function Home() {
         </section>
 
 
-        <section className="bg-white">
+        <section className="bg-gray-900">
           <div className="centered container">
-          <video muted controls className="h-full mx-auto"><source src="/codespaces-settings.mp4" /></video>
+          <video autoPlay loop muted playsInline className="h-full mx-auto"><source src="/codespaces-settings.mp4" /></video>
           </div>
         </section>
 
@@ -483,7 +483,7 @@ export default function Home() {
 
         <section className="bg-white">
           <div className="centered container">
-          <video muted controls className="h-full mx-auto"><source src="/cog-predict.mp4" /></video>
+          <video autoPlay loop muted playsInline className="h-full mx-auto"><source src="/cog-predict.mp4" /></video>
           </div>
         </section>
 
@@ -563,6 +563,13 @@ export default function Home() {
             </ul>
           </div>
         </section>
+
+        <section>
+          <p class="text-center"><span className="opacity-50">Missed anything? </span> <DiGithubBadge size="2em" className="inline-block -mt-1 mr-1" />
+            <Link href="https://github.com/zeke/universe-22">zeke/universe-22</Link>
+          </p>
+        </section>
+
 
         <section>
           <h2 className="centered text-3xl">✌️ Fin</h2>
