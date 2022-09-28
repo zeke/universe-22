@@ -495,6 +495,19 @@ export default function Home() {
 
         <section className="bg-brand">
           <div className="centered container">
+            <img src='/cog-login.png' className="drop-shadow-2xl" />
+          </div>
+        </section>
+
+        <section className="bg-brand">
+          <div className="centered container">
+            <img src='/cog-push.png' className="drop-shadow-2xl" />
+          </div>
+        </section>
+
+
+        <section className="bg-brand">
+          <div className="centered container">
             <img src='/octocats-web.png' className="drop-shadow-2xl" />
           </div>
         </section>
