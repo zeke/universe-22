@@ -1,4 +1,6 @@
-:octocat: Slides for [universe-22.vercel.app](https://universe-22.vercel.app/) - use your arrow keys to navigate!
+:octocat: Slides for [universe-22.vercel.app](https://universe-22.vercel.app/)
+
+Use your arrow keys to navigate!
 
 ## Links
 
