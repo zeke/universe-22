@@ -1,6 +1,8 @@
-:octocat: Slides for [universe-22.vercel.app](https://universe-22.vercel.app/)
+# Building an AI artist with Codespaces and Replicate
 
-Use your arrow keys to navigate!
+:octocat: Slides for my talk at GitHub Universe 2022. See [universe-22.vercel.app](https://universe-22.vercel.app/)
+
+↕ Use your arrow keys to navigate the slides.
 
 ## Links
 
