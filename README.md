@@ -1,6 +1,8 @@
-# Building an AI artist with Codespaces and Replicate
+<a href="https://universe-22.vercel.app">
+<img width="1295" alt="universe-22" src="https://user-images.githubusercontent.com/2289/201256754-a49d5f0f-aeac-4da8-b75a-a7fc617bddf1.png">
+</a>
 
-:octocat: Slides for my talk at GitHub Universe 2022. See [universe-22.vercel.app](https://universe-22.vercel.app/)
+:octocat: Slides for my talk at GitHub Universe 2022. See [universe-22.vercel.app](https://universe-22.vercel.app)
 
 ↕ Use your arrow keys to navigate the slides.
 
