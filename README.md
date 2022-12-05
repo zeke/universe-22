@@ -6,6 +6,10 @@
 
 ↕ Use your arrow keys to navigate the slides.
 
+## Updates
+
+- **December 5, 2022** - Textual inversion is already old news! [DreamBooth](https://replicate.com/blog/dreambooth-api) is the hot new thing for training your own Stable Diffusion model, and we've built some tooling to make it even easier to publish your own custom model. Check out our [blog post](https://replicate.com/blog/dreambooth-api) and [GitHub Actions workflow](https://github.com/replicate/dreambooth-action) to get started.
+
 ## Links
 
 Stuff mentioned in the slides:
